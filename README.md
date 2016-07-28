@@ -29,8 +29,8 @@ The tomcat manager is also available at `http://localhost:8080/manager/html` Use
 
 The following service are running inside the docker container:
 
-| Service     | Port | Description            |
-| ----------- | ---- | ---------------------- |
-| supervisord |      | Process control system |
-| postgresql  | 5432 |                        |
-| tomcat      | 8080 | Tomcat HTTP connector  |
+| Service                                          | Port | Description            |
+| ------------------------------------------------ | ---- | ---------------------- |
+| [supervisord](http://supervisord.org/index.html) |      | Process control system |
+| [postgresql](https://www.postgresql.org/)        | 5432 |                        |
+| [tomcat](http://tomcat.apache.org/)              | 8080 | Tomcat HTTP connector  |
